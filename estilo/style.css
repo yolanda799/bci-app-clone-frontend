@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBar{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.botao {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.botao select {
+  background: #f68b1f;
+  border: none;
+  border-radius: 25%;   
+  width: 50px;           
+  height: 30px;          
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  padding-left: 5px;
+  appearance: none;      
+}
+
+.img {
+    position: absolute; 
+    top: 0px;      
+}
+
+.img img {
+    width: 90px;     
+    height: 100px;
+    cursor: pointer;    
+}
+.logo {
+    text-align: left;
+    margin-top: 80px; 
+    margin-left: 25%;
+     border-bottom-right-radius: 45%;
+}
+
+.logo span {
+    color: #fb9f00;
+    font-size: 40px;
+    font-weight: bold;
+}
+.inicio {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-left: 40px;
+  border: 2px solid #fba91b;
+  border-radius: 50px; 
+  overflow: hidden;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.inicio span {
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fba91b;
+  background: white;
+  position: relative;
+  width: 200px;
+  border-radius: 50px;
+}
+
+
+.inicio span.ativo {
+  background: #fba91b;
+  color: white;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.inicio span:hover {
+  background: #fbd67f;
+  color: white;
+  border-radius:50px;
+
+}
+.conteudo {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+
+.conteudo input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    color: rgb(142, 142, 143);
+    outline: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.acesso{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+}
+.acesso input{
+    padding: 10px 24px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: rgb(142, 142, 143);
+    outline: none;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.botaoConf{
+    padding: 10px 24px ;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    background: #fb9f00;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 400px;
+    text-align: center;
+}
+.botaoConf:hover{
+    background: wheat;
+}
+.para{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.imag {
+    position: absolute;        
+    top: 100px;                    
+    right: 0;                 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px 40px 0 0;    
+    height: auto;
+}
+
+.imag img {
+    max-width: 400px;          
+    width: 400px;
+    height: 600px;           
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    gap: 40px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.icon .material-symbols-outlined{
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon .material-symbols-outlined:hover{
+    color: #fba91b;
+    transform: scale(1.2);
+}
